@@ -18,5 +18,9 @@ Currently, two environment variables have been set:
 
 - `DISCORD_WEBHOOK`: Discord Webhook to which to post the results
 - `DISTRICT_ID`: District id to fetch the available slots.
+- `TELEGRAM_ENABLED`: To enable sending messages to telegram
+- `TELEGRAM_API_TOKEN`: API token to publish to telegram
+- `TELEGRAM_CHANNEL_ID`: Channel/group id to post to telegram
+- `DISCORD_FAILURE_WEBHOOK`: Discord webhook to send failure  details to
 
 These are created/updated manually. 

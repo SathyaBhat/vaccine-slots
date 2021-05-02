@@ -3,7 +3,7 @@ import json
 import requests
 from datetime import datetime
 from os import getenv
-from publish_to_discord import publish_message
+from publish import publish_message
 
 def get_slots_info():
     current_date = datetime.today().strftime("%d-%m-%y")
